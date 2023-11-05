@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rezome;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: rezome;
+    src: url(../IRANYekanLight.ttf);
+}
+div.imag{
+    background-image: linear-gradient(to right, #720505 , #333333);
+
+}
+div.box:hover > i {
+    color: red;
+}
+@media(min-width:1024px) and (max-width:1246px){
+    div.item{
+        height: 
+        350px;
+        align-items: start;
+    
+
+    }
+
+    div.imgright{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .imgleft > ul.aderes{
+        margin-left: 150px;
+
+      }
+      div.item > span{
+        display: flex;
+      margin-top: 30px;
+      }
+.name{
+ margin-top:-200px;
+}
+.khodam{
+margin-top: 50px;
+}
+.imgleft{
+    border-left: solid black 0.1;
+}
+}
+@media(min-width:300px) and (max-width:1024px){
+    div.item{
+        flex-direction: column;
+       
+    }
+    .imgright{
+flex-direction: column;
+border-bottom: solid black 1px;
+padding-bottom:90px;
+
+    }
+    .khodam{
+        margin-top: -120px;
+    }
+    .imgleft{
+ display: flex;
+justify-content: center;
+
+    }
+}
+@media(max-width:492px){
+  .imgleft > ul.aderes{
+    margin-left: 150px;
+ margin-top: -20px;
+  }
+}
+div.backgrund{
+    background-image: url(../media/167479.webp);
+    object-fit: cover;
+    opacity: 0.2;
+
+  
+}
+@media(max-width:768px){
+    div.nemone{
+     flex-direction: column;
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    
+}
+
+div.imgertebat{
+
+    overflow: hidden;
+
+}
+div.inputtext > input{
+
+ border: 3px solid #191B1E;
+ box-shadow: 0px 1px 1px 1px #383838;
+
+}
+div.inputtext > textarea{
+
+    border: 3px solid #191B1E;
+    box-shadow: 0px 1px 1px 1px #383838;
+   
+   }
+@media(min-width:1024px) and (max-width:1210px){
+    div.inputtext{
+
+flex-basis: 100%;
+       
+       }
+}
+@media(max-width:1024px){
+ .box{
+margin: 0 auto;
+flex-direction: column;
+ }
+
+}
+div.gradient{
+    background-image: linear-gradient(to right,red,black);
+}
