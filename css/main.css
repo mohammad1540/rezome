@@ -542,8 +542,16 @@ video {
   position: sticky;
 }
 
+.left-4 {
+  left: 1rem;
+}
+
 .top-0 {
   top: 0px;
+}
+
+.top-3 {
+  top: 0.75rem;
 }
 
 .top-\[400px\] {
@@ -556,6 +564,10 @@ video {
 
 .z-50 {
   z-index: 50;
+}
+
+.float-left {
+  float: left;
 }
 
 .mx-auto {
@@ -679,6 +691,10 @@ video {
   height: 200px;
 }
 
+.h-\[20px\] {
+  height: 20px;
+}
+
 .h-\[250px\] {
   height: 250px;
 }
@@ -725,6 +741,10 @@ video {
 
 .w-\[200px\] {
   width: 200px;
+}
+
+.w-\[20px\] {
+  width: 20px;
 }
 
 .w-\[45\%\] {
@@ -899,6 +919,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-red-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+}
+
 .bg-slate-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
@@ -907,11 +932,6 @@ video {
 .bg-slate-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
-}
-
-.bg-slate-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
 .bg-fixed {
@@ -968,6 +988,10 @@ video {
   padding-top: 2.5rem;
 }
 
+.pt-16 {
+  padding-top: 4rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -986,6 +1010,14 @@ video {
 
 .text-start {
   text-align: start;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .text-\[18px\] {
@@ -1190,22 +1222,6 @@ video {
 
   .md\:gap-20 {
     gap: 5rem;
-  }
-
-  .md\:pr-52 {
-    padding-right: 13rem;
-  }
-
-  .md\:pr-3 {
-    padding-right: 0.75rem;
-  }
-
-  .md\:pr-36 {
-    padding-right: 9rem;
-  }
-
-  .md\:pr-32 {
-    padding-right: 8rem;
   }
 
   .md\:pr-28 {
